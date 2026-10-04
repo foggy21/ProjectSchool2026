@@ -802,7 +802,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 563242233}
-  - component: {fileID: 563242236}
   - component: {fileID: 563242237}
   - component: {fileID: 563242235}
   - component: {fileID: 563242234}
@@ -870,18 +869,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   _moveSpeed: 4
   _rigidbody: {fileID: 563242234}
---- !u!114 &563242236
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 563242232}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4354031a8872964fb2b9d4f0f517354, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Player
 --- !u!114 &563242237
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1768,11 +1755,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 490384070740254903, guid: 5425541ad28f68a4aaa58eab09b8b58d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.19
+      value: 5.54
       objectReference: {fileID: 0}
     - target: {fileID: 490384070740254903, guid: 5425541ad28f68a4aaa58eab09b8b58d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.06
+      value: -1.72
       objectReference: {fileID: 0}
     - target: {fileID: 490384070740254903, guid: 5425541ad28f68a4aaa58eab09b8b58d, type: 3}
       propertyPath: m_LocalPosition.z
